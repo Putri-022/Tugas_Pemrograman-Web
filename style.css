@@ -1,0 +1,130 @@
+.benner {
+    background: url("gambar/p3.webp");
+    background-size: cover;
+    padding-top: 30%;
+    padding-bottom: 20px;
+    color: #fff;
+
+
+}
+.h3 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.container h3 span:before {
+	content: '' ;
+	animation: gerak infinite 5s ease;
+	transform: translateY(-50%);
+	color: lightblue;
+	font-size: 30px;
+}
+@keyframes gerak {	
+	0%{
+		content: 'Selamat Datang';
+	}
+	50%{
+		content: 'Saya Putri Yanti';
+	}
+	100%{
+		content: 'Terima Kasih Sudah Singgah!';
+	}
+}
+.container-fluid h4 h3 button {
+	padding: 100px;
+	margin-top: 60px;
+	top: auto;
+}
+.container-fluid button{
+	margin-top: 60px;
+	padding: 10px;
+	width: 300px;
+	border-radius: 50px;
+	border: none;
+	background-color: #fff;
+}
+.lingkaran{
+    display: inline-block;
+	border-radius: 95px;
+    width: 150px;
+    margin: 50px;
+    height: 160px;
+    color: #1c1919;
+    background-color:#dc3545;
+	align-content: center;
+	text-align: center;
+}
+.lingkaran i {
+    position: relative;
+    top: 10px;  
+	text-align: left;
+}
+.mt-3{
+	padding: 5px 5px;
+	margin: 5px 5px 5px 5px;
+    text-align: center;
+	align-content: center;
+}
+
+.box-kiri, .box-tengah, .box-kanan {
+	padding-top: 10px;
+	width:289px ;
+	height: 450px;
+	background-color: #f0f0f0;
+	text-align: center;
+	padding: 10px 10px;
+	margin: 50px 20px 20px 50px;
+	float: left;	
+}
+.box-kiri:hover, .box-tengah:hover, .box-kanan:hover {
+	background-color: #3b5999;
+	color: white;
+}
+.box-Tentang {
+	width: 100%;
+	height: 70px;
+	color: black;
+	padding-top: 28px;	
+}
+.data {
+	text-align: center;
+	align-content: center;
+	margin-bottom: 10px;
+}
+.box-gambar img{
+	margin: 20px auto;
+	border-radius:50px;
+	width:200px;
+	margin-top:1px;
+	margin-bottom: 1px;
+	padding-bottom: 1px;
+	border: 8px solid #3b4997 ;
+	display:flex;
+}
+.table tr td {
+	text-align: center;
+	margin-top: 100px;
+	padding: 1px;
+	text-align: left;
+	padding-left: 340px;	
+}
+.kontak {
+    background: url("https://wallpaperaccess.com/full/1867010.jpg") no-repeat
+      center center;
+    background-size: cover;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    color: #fefefe;
+  }
+  .col-md-3 button{
+	background-color: #443b3b;
+
+  }
+.footer {
+	background-color: grey;
+	width: 100%;
+	height: 50px;
+	color: white;
+	padding: 3px;
+	margin: 50px auto 0px;
+
+}
